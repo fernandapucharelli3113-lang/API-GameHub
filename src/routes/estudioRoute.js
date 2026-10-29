@@ -12,3 +12,5 @@ router.put("/:id", validarId, estudioController.atualizar);
 router.delete("/:id", validarId, estudioController.excluir);
 
 export default router;
+
+
